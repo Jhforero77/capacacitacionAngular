@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="e6a81388a208a018938100373e5f00c29616e6e1" datatype="html">
+        <source>Navbar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\components\shared\navbar\navbar.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description"> El nombre de la aplicacion</note>
+        <note priority="1" from="meaning">navbar-titulo </note>
+      </trans-unit>
+      <trans-unit id="ee7e0aa221db282797197cb968e5102b789a6528" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\components\shared\navbar\navbar.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description"> link a la pagina principal</note>
+        <note priority="1" from="meaning">enlace-home </note>
+      </trans-unit>
+      <trans-unit id="c48732341ad2dd3d039e687eeb8cadf2b261cf46" datatype="html">
+        <source>post</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\components\shared\navbar\navbar.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description"> link a la pagina de post</note>
+        <note priority="1" from="meaning">enlace-post </note>
+      </trans-unit>
+      <trans-unit id="33a1e3b8874a03c1dbc178f502b590a690dc930e" datatype="html">
+        <source>Contacto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\components\shared\navbar\navbar.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description"> link a la pagina de contacto</note>
+        <note priority="1" from="meaning">enlace-contacto </note>
+      </trans-unit>
+      <trans-unit id="af74bf082e18b64ecefa972b1b649130c2a01d94" datatype="html">
+        <source> Gender: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\components\cliente\cliente.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description"> genero de cada cliente</note>
+        <note priority="1" from="meaning">cliente-genero </note>
+      </trans-unit>
+      <trans-unit id="314cfc589de0eea87af0bc7e5675b93c9ec82295" datatype="html">
+        <source>Weight: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\components\cliente\cliente.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description"> peso de cada cliente</note>
+        <note priority="1" from="meaning">cliente-peso </note>
+      </trans-unit>
+      <trans-unit id="14b05ff2adeec27e5f559aaa7b3ac23f53ee79f1" datatype="html">
+        <source>Hair color: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\components\cliente\cliente.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description"> color de cabello del cliente</note>
+        <note priority="1" from="meaning">cliente-color-cabello </note>
+      </trans-unit>
+      <trans-unit id="f8b55d73d1911754645bd4ad7d7139fab8c8b3d3" datatype="html">
+        <source>Skin color: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\components\cliente\cliente.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description"> color de piel del cliente</note>
+        <note priority="1" from="meaning">cliente-color-piel </note>
+      </trans-unit>
+      <trans-unit id="22c553fe286c551b0a60dbf96a2384becbe0f079" datatype="html">
+        <source>Eyes color: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\components\cliente\cliente.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description"> color de ojos del cliente</note>
+        <note priority="1" from="meaning">cliente-color-ojos </note>
+      </trans-unit>
+      <trans-unit id="56745590a8a33855f11ee316fca3dc4fbd960cee" datatype="html">
+        <source>Created at: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\components\cliente\cliente.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description"> fecha de creacion del cliente</note>
+        <note priority="1" from="meaning">cliente-creado </note>
+      </trans-unit>
+      <trans-unit id="630a727e5c4d2fbb572396ff8d614de9a87a6622" datatype="html">
+        <source>Edited at :</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\components\cliente\cliente.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description"> fecha de edicion del cliente</note>
+        <note priority="1" from="meaning">cliente-editado </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

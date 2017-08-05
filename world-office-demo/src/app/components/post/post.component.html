@@ -1,0 +1,13 @@
+<div class="row">
+  <input type="text" ngModel #texto="ngModel" name="texto" (keyup.enter)="crearPost(texto)" class="form-control">
+</div>
+<div class="row">
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let post of posts; let i = index">
+      <strong>{{(i + 1)}} - <label>{{post.title}}</label></strong>
+      <p>{{post.body}}<p>
+      <button class="btn btn-primary" (click)="actualizarPost(post)">Actualizar</button>
+      <button class="btn btn-danger" (click)="borrarPost(post)">Borrar</button>
+    </li>
+  </ul>
+</div>

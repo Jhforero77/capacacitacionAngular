@@ -1,0 +1,23 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+    <h3>
+      {{ data.name }}
+      <span class="label label-default">{{ data.birth_year }}</span>
+    </h3>
+    <h4>
+      <strong i18n="cliente-genero | genero de cada cliente"> Gender: </strong> {{ data.gender }}
+      <strong i18n="cliente-peso | peso de cada cliente">Weight: </strong> {{ data.mass }}
+    </h4>
+    <p>
+      <strong i18n="cliente-color-cabello | color de cabello del cliente">Hair color: </strong> {{ data.hair_color}}
+      <strong i18n="cliente-color-piel | color de piel del cliente">Skin color: </strong> {{ data.skin_color}}
+      <strong i18n="cliente-color-ojos | color de ojos del cliente">Eyes color: </strong> {{ data.eye_color}}
+    </p>
+  </div>
+  <div class="panel-footer">
+    <div class="panel-right">
+      <strong i18n="cliente-creado | fecha de creacion del cliente">Created at: </strong> {{ data.created | date : 'longDate'}}
+      <strong i18n="cliente-editado | fecha de edicion del cliente">Edited at :</strong> {{ data.edited | date : 'longDate'}}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+<!--<h2> Soy el componente {{this.nombre}}</h2>
+<h3>
+  Hoy es: {{ queDiaEsHoy() | date:'longDate' }}
+</h3>
+<ul>
+  <li *ngFor="let cliente of this.clientes">
+    {{cliente}}
+  </li>
+</ul>
+
+<span class="glyphicon glyphicon-asterisk"></span>
+
+<div class="hidden-xs">
+  <img [src]="banner"/>
+</div>
+
+<a [href]="banner" [title]="nombre">{{nombre}}</a>
+
+<button class="btn btn-primary" [class.disabked]="isActive"
+  [style.backgroundColor]="isActive ? 'blue' : 'black' "
+  [style.borderColor]="isActive ? 'blue' : 'black' ">Guardar</button>
+
+<button class="btn btn-secundary" (click)="onClick($event)">Cambiar activar</button>
+
+<input [(ngModel)]="nombre" (keyup.enter)="log()"/>-->
+<!--<h2>{{post.titulo}}</h2>
+<wo-app-favorito [esFavorito]="post.favorito" (change)="cambioFavorito($event)"></wo-app-favorito>-->
+<div class="row">
+  <div class="col-md-12">
+    <button *ngIf="page > 1" class="btn btn-info" (click)="bajarPagina()">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </button>
+    <button *ngIf="page < (limit - 1)" class="btn btn-info pull-right" (click)="subirPagina()">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </button>
+  </div>
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-6" *ngFor='let cliente of clientes'>
+        <wo-app-cliente [data]="cliente"></wo-app-cliente>
+      </div>
+    </div>
+  </div>
+</div>
+<!--<button class="btn btn-primary" (click)="agregarCliente()">Agrgar cliente</button>
+<ul>
+  <li *ngFor="let cliente of ClientesOtro; index as i">
+    Pos:{{i}} - {{cliente.nombre}} - {{cliente.id}}
+    <button class="btn btn-info" (click)="modificarCliente(cliente)">Modificar</button>
+    <button class="btn btn-warning" (click)="eliminarCliente(cliente)">Eliminar</button>
+  </li>
+</ul>-->
